@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "perplexity-mcp": {
+      "env": {
+        "PERPLEXITY_API_KEY": "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"
+      },
+      "command": "npx",
+      "args": [
+        "perplexity-mcp"
+      ]
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--read-only",
+        "--project-ref=nbdoquumhvpteaxodnzq"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_e972b80441c7e2beb566eef03a858526b9954cb6"
+      }
+    }
+  }
+}
